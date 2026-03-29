@@ -33,8 +33,45 @@ const CHARACTERS = [
         ],
       },
       {
-        label: 'Responses',
+        label: 'Top Hits',
         column: 'left',
+        sounds: [
+          { label: 'Stop whining!',       file: 'stop-whining.mp3' },
+          { label: 'You lack discipline', file: 'you-lack-discipline.mp3' },
+          { label: 'Get to the choppa!',  file: 'choppa.mp3' },
+          { label: "Bunch of questions",  file: 'questions-answer-me.mp3' },
+          { label: 'Who is your daddy?',  file: 'who-is-your-daddy.mp3' },
+          { label: 'Fist/Stomach',        file: 'stomach.mp3' },
+        ],
+      },
+      {
+        label: 'Cop Stuff',
+        column: 'left',
+        sounds: [
+          { label: "I'm Det. John Kimble!",   file: 'det-kimble.mp3' },
+          { label: "I'm a cop, you idiot!",   file: 'im-a-cop-you-idiot.mp3' },
+          { label: "Hey, I'm a police officer", file: 'police-officer.mp3' },
+          { label: 'Trust me',                file: 'trust-me.mp3' },
+          { label: "You're under arrest",     file: 'arrest-2.mp3' },
+          { label: "I'm pressing charges",    file: 'charges.mp3' },
+          { label: 'Weekend in Jail',         file: 'jail.mp3' },
+          { label: 'One of us is in trouble', file: 'one-of-us-is-in-deep-trouble.mp3' },
+          { label: "Don't f***ing BS me",     file: 'dont-fing-bs-me.mp3' },
+        ],
+      },
+      {
+        label: 'Laughing',
+        column: 'left',
+        sounds: [
+          { label: 'Chuckle',            file: 'chuckle.mp3' },
+          { label: 'Haha',               file: 'haha.mp3' },
+          { label: 'Crazy Laugh',        file: 'haha-crazy.mp3' },
+        ],
+      },
+
+      {
+        label: 'Responses',
+        column: 'right',
         sounds: [
           { label: 'Yeah',               file: 'yeah.mp3' },
           { label: 'Sure',               file: 'sure.mp3' },
@@ -60,27 +97,6 @@ const CHARACTERS = [
         ],
       },
       {
-        label: 'Laughing',
-        column: 'left',
-        sounds: [
-          { label: 'Chuckle',            file: 'chuckle.mp3' },
-          { label: 'Haha',               file: 'haha.mp3' },
-          { label: 'Crazy Laugh',        file: 'haha-crazy.mp3' },
-        ],
-      },
-      {
-        label: 'Top Hits',
-        column: 'right',
-        sounds: [
-          { label: 'Stop whining!',       file: 'stop-whining.mp3' },
-          { label: 'You lack discipline', file: 'you-lack-discipline.mp3' },
-          { label: 'Get to the choppa!',  file: 'choppa.mp3' },
-          { label: "Bunch of questions",  file: 'questions-answer-me.mp3' },
-          { label: 'Who is your daddy?',  file: 'who-is-your-daddy.mp3' },
-          { label: 'Fist/Stomach',        file: 'stomach.mp3' },
-        ],
-      },
-      {
         label: 'Aggresive',
         column: 'right',
         sounds: [
@@ -100,21 +116,6 @@ const CHARACTERS = [
           { label: 'Stop laughing!',           file: 'stop-laugh.mp3' },
           { label: "Look, I don't know you...", file: 'dky.mp3' },
 
-        ],
-      },
-      {
-        label: 'Cop Stuff',
-        column: 'right',
-        sounds: [
-          { label: "I'm Det. John Kimble!",   file: 'det-kimble.mp3' },
-          { label: "I'm a cop, you idiot!",   file: 'im-a-cop-you-idiot.mp3' },
-          { label: "Hey, I'm a police officer", file: 'police-officer.mp3' },
-          { label: 'Trust me',                file: 'trust-me.mp3' },
-          { label: "You're under arrest",     file: 'arrest-2.mp3' },
-          { label: "I'm pressing charges",    file: 'charges.mp3' },
-          { label: 'Weekend in Jail',         file: 'jail.mp3' },
-          { label: 'One of us is in trouble', file: 'one-of-us-is-in-deep-trouble.mp3' },
-          { label: "Don't f***ing BS me",     file: 'dont-fing-bs-me.mp3' },
         ],
       },
       {
