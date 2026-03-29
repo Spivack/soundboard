@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prank Call Soundboard</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <h1> Prank call like it's 1999 &#128222; &#128520;</h1>
+    </header>
+
+    <!-- <div id="character-selector"></div> -->
+    <div id="sound-board">
+      <h2 id="character-title"></h2>
+      <div id="sound-grid">
+        <div id="col-left" class="sound-col"></div>
+        <div id="col-right" class="sound-col"></div>
+      </div>
+      <div id="col-full"></div>
+    </div>
+
+    <div id="queue-panel">
+      <h3 id="queue-heading">QUEUE</h3>
+      <div id="queue-controls">
+        <button id="queue-toggle">Queue Mode: OFF</button>
+        <button id="queue-prev" disabled>Current</button>
+        <button id="queue-next" disabled>Next &#9654;</button>
+        <button id="queue-clear" disabled>Clear</button>
+      </div>
+      <ol id="queue-list"></ol>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>Audio clips &copy; their respective owners. Personal use only, not for commercial use.</p>
+  </footer>
+
+  <script src="js/sounds.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
