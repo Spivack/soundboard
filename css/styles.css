@@ -165,6 +165,15 @@ body {
   color: #444444;
 }
 
+.site-footer a {
+  color: #cc0000;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: #ff2222;
+}
+
 /* Queue */
 
 #queue-panel {
