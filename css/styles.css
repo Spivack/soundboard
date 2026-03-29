@@ -184,6 +184,9 @@ body {
 }
 
 #queue-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -191,6 +194,14 @@ body {
   border-left: 3px solid #cc0000;
   padding-left: 8px;
   margin-bottom: 12px;
+}
+
+#queue-hint {
+  font-size: 0.7rem;
+  text-transform: none;
+  letter-spacing: 0;
+  color: #444444;
+  font-weight: normal;
 }
 
 #queue-controls {
